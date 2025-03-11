@@ -1,0 +1,28 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.container{
+    max-width: 1920px;
+    max-height: 1080px;
+}
+@media (max-width: 1920px) and (min-width: 768px){
+    .container{
+        width: 100%;
+        border: 2px solid yellow;
+    }
+}
+@media (max-width: 768px) and (min-width: 375px){
+    .container{
+        width: 100%;
+        border: 2px solid blue;
+    }
+}
+@media (max-width: 375px){
+    .container{
+        width: 100%;
+        border: 2px solid red;
+    }
+}
