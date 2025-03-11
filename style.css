@@ -117,7 +117,6 @@ input {
 }
 
 .container-row {
-    border: 1px solid black;
     display: flex;
     gap: 20px;
     width: 100%;
@@ -153,7 +152,7 @@ input {
 }
 
 .line {
-    width: 220px;
+    width: 240px;
     border-top: 1px solid rgba(0,0,0,0.1);
     margin-top: 15px;
     margin-bottom: 15px;
@@ -177,57 +176,96 @@ input {
 
 .side-bar-col2 {
     width: 240px;
-    height: 135px;
+    height: 150px;
 }
 
-.side-bar-col2 p {
-    font-family: Arial, sans-serif;
-    font-weight: 550;
-    font-size: 20px;
-    line-height: 0px;
-}
-
-.sidebar-col-1 {
-    display: flex;
-    gap: 15px;
-    line-height: 5px;
-}
-
-.sidebar-col-1 img {
-    width: 28px;
-}
-
-.sidebar-col-1 p {
-    line-height: 5px;
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.side-bar-col3{
-    /* border: 1px solid red; */
+.side-bar-col3 {
     width: 240px;
     height: 300px;
 }
-.text{
+.text {
     font-family: Arial, sans-serif;
     font-weight: 550;
     font-size: 20px;
     line-height: 10px;
 }
 
-.side-bar-col4{
+.side-bar-col4 {
     width: 240px;
     height: 120px;
 }
 
-nav{
-    border: 1px solid blue;
+nav {
     width: 1660px;
     height: 40px;
+    display: flex;
+    gap:20px;
+
 }
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: 550;
+    border-radius: 8px;
+    margin: 4px 0px 4px 0px;
+    background-color:  #f0f0f0;
+}
+.tag-1{
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+.tag-2{
+    width: 65px;
+}
+.tag-3{
+    width: 140px;
+}
+.tag-4{
+    width: 84px;
+}
+.tag-5{
+    width: 138px;
+}
+.tag-6{
+    width: 135px;
+}
+.tag-7{
+    width: 55px;
+}
+.tag-8{
+    width: 135px;
+}
+.tag-9{
+    width: 55px;
+}
+.tag-10{
+    width: 55px;
+}
+.tag-11{
+    width: 75px;
+}
+.tag-12{
+    width: 68px;
+}
+.tag-13{
+    width: 65px;
+}
+.tag-14{
+    width: 60px;
+}
+.arrow-direction-next{
+    width: 20px;
+    margin-left: 20px;
+}
+
+
+
 main{
     width: 100%;
+    margin-top: 20px;
 }
 .article-col{
     display: flex;
