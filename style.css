@@ -2,11 +2,54 @@
     margin: 0px;
     padding: 0px;
     background-color: #f9f9f9;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .container{
     max-width: 1920px;
-    max-height: 1080px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+}
+.header-col{
+    border: 1px solid red;
+}
+.container-row{
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid red;
+    width: 240px;
+}
+.a{
+    border: 1px solid black;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.sidebar-col5{
+    margin-bottom: 10px;
+}
+nav{
+    border: 1px solid blue;
+    width: 1660px;
+    height: 40px;
+}
+main{
+    width: 100%;
+}
+.article-col{
+    display: flex;
+}
+.article-col article{
+    border: 1px solid orangered;
+    width: 415px;
+    height: 311px;
 }
 @media (max-width: 1920px) and (min-width: 768px){
     .container{
