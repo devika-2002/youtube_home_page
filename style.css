@@ -1,50 +1,56 @@
-* body{
+* body {
     margin: 0px;
     padding: 0px;
     background-color: #f9f9f9;
     overflow-x: hidden;
 }
-.container{
+
+.container {
     max-width: 1920px;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     line-height: 20px;
 }
-.header-col{
+
+.header-col {
     display: flex;
 }
-.menu-bar{
+
+.menu-bar {
     width: 30px;
     line-height: 24px;
     padding: 15px;
     font-size: 19px;
-
 }
-.YouTube-logo{
+
+.YouTube-logo {
     width: 40px;
     line-height: 24px;
     font-size: 30px;
     margin-left: 15px;
 }
-.Youtube-text-1{
+
+.Youtube-text-1 {
     font-size: 25px;
     font-weight: bold;
     font-weight: 900px;
     font-family: Arial, sans-serif;
 }
-.Youtube-text-2{
+
+.Youtube-text-2 {
     font-size: 10px;
     color: lightslategrey;
 }
 
-.header-col2{
-    /* line-height: 20px; */
+.header-col2 {
     width: 550px;
 }
-.searchbar{
+
+.searchbar {
     width: 400px;
     height: 30px;
     display: flex;
@@ -54,34 +60,39 @@ header{
     border-radius: 25px;
     background-color: white;
 }
-input{
+
+input {
     width: 320px;
     font-size: 18px;
     outline: none;
     border: none;
 }
-.search-logo{
+
+.search-logo {
     background-color: white;
     border: none; 
     margin-left: 6px;
 }
-.search-icon{
+
+.search-icon {
     width: 20px;
     cursor: pointer;
     
 }
-.mic-icon{
+
+.mic-icon {
     width: 30px;
     margin-left: 20px;
     cursor: pointer;
     border-radius: 30px;
     background-color: #f0f0f0;
-
 }
-.header-col3{
+
+.header-col3 {
     gap: 25px;
 }
-.add-more-col{
+
+.add-more-col {
     width: 90px;
     line-height: 5px;
     border: 2px solid #f0f0f0;
@@ -89,37 +100,127 @@ input{
     gap: 10px;
     border-radius: 30px;
 }
-.add-more-col img{
+
+.add-more-col img {
     margin-left: 9px;
     width: 20px;
 }
-.bell-icon{
+
+.bell-icon {
     width: 30px;
 }
-.user-avatar-icon{
+
+.user-avatar-icon {
     width: 45px;
     font-size: 30px;
     padding-right: 15px;
 }
 
-.container-row{
+.container-row {
     border: 1px solid black;
     display: flex;
     gap: 20px;
     width: 100%;
 }
-.sidebar{
-    border: 1px solid red;
+
+.sidebar {
     width: 240px;
+    padding: 15px;
+    padding-top: 0px;
 }
-.a{
-    border: 1px solid black;
-    height: 200px;
+
+.side-bar-col1 {
+    width: 240px;
+    height: 435px;
+}
+
+.sidebar-col {
     margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    line-height: 5px;
 }
-.sidebar-col5{
-    margin-bottom: 10px;
+
+.sidebar-col img {
+    width: 28px;
 }
+
+.sidebar-col p {
+    line-height: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.line {
+    width: 220px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar-col-arrow {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar-col-arrow img { 
+    width: 15px;
+}
+
+.sidebar-col-arrow p {
+    line-height: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.side-bar-col2 {
+    width: 240px;
+    height: 135px;
+}
+
+.side-bar-col2 p {
+    font-family: Arial, sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.sidebar-col-1 {
+    display: flex;
+    gap: 15px;
+    line-height: 5px;
+}
+
+.sidebar-col-1 img {
+    width: 28px;
+}
+
+.sidebar-col-1 p {
+    line-height: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.side-bar-col3{
+    /* border: 1px solid red; */
+    width: 240px;
+    height: 300px;
+}
+.text{
+    font-family: Arial, sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.side-bar-col4{
+    width: 240px;
+    height: 120px;
+}
+
 nav{
     border: 1px solid blue;
     width: 1660px;
@@ -136,19 +237,19 @@ main{
     width: 415px;
     height: 311px;
 }
-@media (max-width: 1920px) and (min-width: 768px){
+@media (max-width: 1920px) and (min-width: 768px) {
     .container{
         width: 100%;
         border: 2px solid yellow;
     }
 }
-@media (max-width: 768px) and (min-width: 375px){
+@media (max-width: 768px) and (min-width: 375px) {
     .container{
         width: 100%;
         border: 2px solid blue;
     }
 }
-@media (max-width: 375px){
+@media (max-width: 375px) {
     .container{
         width: 100%;
         border: 2px solid red;
