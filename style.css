@@ -1,3 +1,4 @@
+
 * body {
     margin: 0;
     padding: 0;
@@ -70,14 +71,13 @@ input {
 
 .search-logo {
     background-color: white;
-    border: none; 
+    border: none;
     margin-left: 6px;
 }
 
 .search-icon {
     width: 20px;
     cursor: pointer;
-    
 }
 
 .mic-icon {
@@ -123,13 +123,11 @@ input {
 }
 
 .sidebar {
-    /* width: 240px; */
     padding: 15px;
     padding-top: 0px;
 }
 
 .side-bar-col1 {
-    /* width: 240px; */
     height: 435px;
 }
 
@@ -153,7 +151,7 @@ input {
 
 .line {
     width: 240px;
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -164,7 +162,7 @@ input {
     gap: 10px;
 }
 
-.sidebar-col-arrow img { 
+.sidebar-col-arrow img {
     width: 15px;
 }
 
@@ -178,12 +176,13 @@ input {
 .side-bar-col2 {
     width: 240px;
     height: 150px;
-} 
+}
 
 .side-bar-col3 {
     width: 240px;
     height: 300px;
 }
+
 .text {
     font-family: Arial, sans-serif;
     font-weight: 550;
@@ -197,10 +196,8 @@ input {
 }
 
 nav {
-    /* width: 1660px; */
-    /* height: 40px; */
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
 
 .tag {
@@ -211,7 +208,7 @@ nav {
     font-weight: 550;
     border-radius: 8px;
     margin: 4px 0px 4px 0px;
-    background-color:  #f0f0f0;
+    background-color: #f0f0f0;
     padding: 5px;
 }
 
@@ -220,61 +217,6 @@ nav {
     background-color: black;
     color: white;
 }
-
-/* .tag-2 {
-    width: 65px;
-} */
-
-/* .tag-3 {
-    width: 140px;
-}
-
-.tag-4 {
-    width: 84px;
-} */
-
-/* .tag-5 {
-    width: 138px;
-}
-
-.tag-6 {
-    width: 135px;
-}
-
-.tag-7 {
-    width: 55px;
-}
-
-.tag-8 {
-    width: 135px;
-}
-
-.tag-9 {
-    width: 55px;
-}
-
-.tag-10 {
-    width: 55px;
-}
-
-.tag-11 {
-    width: 75px;
-}
-
-.tag-12 {
-    width: 68px;
-}
-
-.tag-13 {
-    width: 62px;
-}
-
-.tag-14 {
-    width: 55px;
-}
-.tag-15{
-    width: 100px;
-} */
 
 .arrow-direction-next {
     width: 15px;
@@ -340,7 +282,6 @@ main {
 .more-vert-img {
     width: 25px;
     padding-top: 3px;
-
 }
 
 .shorts-video-col1 {
@@ -425,8 +366,8 @@ footer {
     width: 250px;
 }
 
-.footer-col3{
-    width:250px;
+.footer-col3 {
+    width: 250px;
 }
 
 .footer-col4 {
@@ -447,371 +388,436 @@ footer {
     padding: 15px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
 
-/* @media (max-width: 1920px) {
-    .container{
+    header {
         width: 100%;
         height: 100%;
     }
-    
-} */
-    
-/* @media (max-width: 1920px) and (min-width: 768px) {
-    .container{
-        border: 2px solid yellow;
-    }
-    
-} */
-@media (max-width: 768px){
-    .container{
-        width: 100%;
-    }
-    header{
-        width: 100%;
-        height: 100%;
-    }
-    .header-col1{
+
+    .header-col1 {
         width: 220px;
     }
-    .menu-bar{
+
+    .menu-bar {
         width: 20px;
     }
-    .YouTube-logo{
+
+    .YouTube-logo {
         width: 30px;
         margin-left: 8px;
     }
 
-    .header-col2{
+    .header-col2 {
         width: 280px;
     }
-    .searchbar{
+
+    .searchbar {
         width: 240px;
     }
-    input{
+
+    input {
         width: 220px;
         border: none;
         outline: none;
     }
-    .header-col3{
+
+    .header-col3 {
         width: 160px;
     }
-    .add-more-col{
+
+    .add-more-col {
         border: none;
     }
-    .add-more-col p{
+
+    .add-more-col p {
         display: none;
     }
-    .user-avatar-icon{
+
+    .user-avatar-icon {
         width: 40px;
     }
-    .container-row{
+
+    .container-row {
         gap: 10px;
     }
-    .sidebar{
+
+    .sidebar {
         padding: 10px;
     }
-    .sidebar-col{
+
+    .sidebar-col {
         display: block;
     }
+
     .sidebar-col img {
         width: 25px;
     }
-    .sidebar-col p{
+
+    .sidebar-col p {
         font-size: 8px;
     }
 
-    .line{
-        display: none;
-    }
-    .sidebar-col-1{
-        display: none;
-    }
-    .side-bar-col2{
-        display: none;
-    }
-    .side-bar-col3{
+    .line {
         display: none;
     }
 
-    .side-bar-col4{
+    .sidebar-col-1 {
         display: none;
     }
 
-    nav{
+    .side-bar-col2 {
+        display: none;
+    }
+
+    .side-bar-col3 {
+        display: none;
+    }
+
+    .side-bar-col4 {
+        display: none;
+    }
+
+    nav {
         gap: 8px;
     }
-    .tag{
+
+    .tag {
         font-size: 15px;
         padding: 8px;
         height: 15px;
     }
-    .tag-1{
+
+    .tag-1 {
         width: 20px;
     }
-    .tag1{
+
+    .tag1 {
         display: none;
     }
 
-    .card-container{
+    .card-container {
         gap: 10px;
     }
-    .card1{
+
+    .card1 {
         width: 315px;
     }
 
-    .card-1{
+    .card-1 {
         display: none;
     }
-    .ad-load-img{
+
+    .ad-load-img {
         width: 13px;
     }
-    .text-p{
+
+    .text-p {
         width: 250px;
         font-size: 13px;
     }
-    .text-p1{
+
+    .text-p1 {
         font-size: 10px;
         line-height: 0px;
     }
-    .more-vert-img{
+
+    .more-vert-img {
         width: 20px;
     }
 
-    .shorts-video-col{
+    .shorts-video-col {
         margin-top: 20px;
     }
-    .shorts-video-col1{
+
+    .shorts-video-col1 {
         width: 50px;
         margin-top: 10px;
     }
+
     .shorts-video-col1 img {
         width: 10px;
         border-radius: 10px;
     }
-    .shorts-video-col1 p{
+
+    .shorts-video-col1 p {
         font-size: 10px;
     }
 
-    .shorts-video-col{
+    .shorts-video-col {
         gap: 10px;
     }
-    .shorts-video-col2{
+
+    .shorts-video-col2 {
         width: 215px;
-        /* height: 300px; */
         margin-top: 1px;
         margin-bottom: 100px;
     }
+
     .shorts-col1 img {
         width: 20px;
     }
+
     .shorts-video-p {
         width: 200px;
         font-size: 12px;
     }
+
     .shorts-video-p1 {
         font-size: 10px;
     }
-    .shorts-col{
+
+    .shorts-col {
         display: none;
     }
-    .footer-container{
+
+    .footer-container {
         width: 100%;
     }
+
 }
 
 
 @media (max-width: 375px) {
-    .container{
+    .container {
         width: 100%;
     }
-    header{
+
+    header {
         width: 100%;
         height: 100%;
     }
-    .header-col{
+
+    .header-col {
         width: 110px;
     }
+
     .menu-bar {
         width: 15px;
         padding: 5px;
     }
-    .YouTube-logo{
+
+    .YouTube-logo {
         width: 20px;
-        margin-left:5px;
+        margin-left: 5px;
     }
-    .Youtube-text-1{
+
+    .Youtube-text-1 {
         font-size: 12px;
         font-weight: 600px;
     }
-    .Youtube-text-2{
+
+    .Youtube-text-2 {
         font-size: 8px;
     }
 
-    .header-col2{
+    .header-col2 {
         width: 140px;
     }
-    .searchbar{
+
+    .searchbar {
         width: 100px;
         height: 20px;
         border: 2px solid #f0f0f0;
-        border-radius:20px;
+        border-radius: 20px;
     }
-    input{
+
+    input {
         width: 80px;
         font-size: 8px;
     }
-    .search-icon{
+
+    .search-icon {
         width: 10px;
     }
-    .mic-icon{
+
+    .mic-icon {
         width: 15px;
         border-radius: 20px;
     }
 
-    .add-more-col{
+    .add-more-col {
         width: 15px;
         border: none;
     }
 
-
-    .header-col3{
+    .header-col3 {
         width: 100px;
         gap: 18px;
     }
-    .add-more-col{
+
+    .add-more-col {
         width: 10px;
         line-height: 1px;
     }
-    .add-more-col img{
+
+    .add-more-col img {
         margin-left: 0px;
     }
-    .add-more-col p{
+
+    .add-more-col p {
         display: none;
     }
-    .bell-icon{
+
+    .bell-icon {
         width: 20px;
     }
 
-    .user-avatar-icon{
+    .user-avatar-icon {
         width: 30px;
     }
-    .container-row{
+
+    .container-row {
         gap: 5px;
     }
-    .sidebar{
+
+    .sidebar {
         padding: 5px;
     }
-    .sidebar-col{
+
+    .sidebar-col {
         display: block;
     }
+
     .sidebar-col img {
         width: 15px;
     }
-    .sidebar-col p{
+
+    .sidebar-col p {
         font-size: 6px;
     }
 
-    .line{
-        display: none;
-    }
-    .sidebar-col-1{
-        display: none;
-    }
-    .side-bar-col2{
-        display: none;
-    }
-    .side-bar-col3{
+    .line {
         display: none;
     }
 
-    .side-bar-col4{
+    .sidebar-col-1 {
         display: none;
     }
-    nav{
+
+    .side-bar-col2 {
+        display: none;
+    }
+
+    .side-bar-col3 {
+        display: none;
+    }
+
+    .side-bar-col4 {
+        display: none;
+    }
+
+    nav {
         gap: 5px;
     }
-    .tag{
+
+    .tag {
         font-size: 8px;
         padding: 3px;
         height: 15px;
     }
-    .tag-1{
+
+    .tag-1 {
         width: 20px;
     }
-    .tag-2{
+
+    .tag-2 {
         display: none;
     }
-    .tag1{
+
+    .tag1 {
         display: none;
     }
-    .card-container{
+
+    .card-container {
         gap: 5px;
     }
-    .card1{
+
+    .card1 {
         width: 155px;
         height: 170px;
     }
 
-    .card-1{
+    .card-1 {
         display: none;
     }
-    .ad-load-img{
+
+    .ad-load-img {
         width: 13px;
     }
-    .text-p{
+
+    .text-p {
         width: 120px;
         font-size: 10px;
     }
-    .text-p1{
+
+    .text-p1 {
         font-size: 8px;
         line-height: 0px;
     }
-    .more-vert-img{
+
+    .more-vert-img {
         width: 15px;
     }
-    .shorts-video-col{
+
+    .shorts-video-col {
         margin-top: 0px;
     }
-    .shorts-video-col1{
+
+    .shorts-video-col1 {
         width: 50px;
         margin-top: 10px;
     }
+
     .shorts-video-col1 img {
         width: 10px;
         border-radius: 10px;
     }
-    .shorts-video-col1 p{
+
+    .shorts-video-col1 p {
         font-size: 10px;
     }
-    .shorts-video-col{
+
+    .shorts-video-col {
         gap: 5px;
     }
-    .shorts-video-col2{
+
+    .shorts-video-col2 {
         width: 103px;
         height: 300px;
         margin-top: 1px;
     }
+
     .shorts-col1 img {
         width: 15px;
     }
+
     .shorts-video-p {
         width: 100px;
         font-size: 10px;
     }
+
     .shorts-video-p1 {
         font-size: 10px;
     }
-    .shorts-col{
+
+    .shorts-col {
         display: none;
     }
-    
-    .footer-container{
+
+    .footer-container {
         width: 100%;
     }
+
     .footer-col h3 {
         font-size: 10px;
     }
+
     .footer-col p {
         font-size: 8px;
     }
+
 }
