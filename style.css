@@ -1,4 +1,3 @@
-
 * body {
     margin: 0;
     padding: 0;
@@ -22,16 +21,17 @@ header {
 }
 
 .menu-bar {
-    width: 30px;
+    width: 100%;
+    height: 30px;
     line-height: 24px;
     padding: 15px;
     font-size: 19px;
 }
 
 .YouTube-logo {
-    width: 40px;
-    line-height: 24px;
-    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    margin-top: 13px;
     margin-left: 15px;
 }
 
@@ -47,12 +47,10 @@ header {
     color: grey;
 }
 
-.header-col2 {
-    width: 550px;
-}
+
 
 .searchbar {
-    width: 400px;
+    width: 252px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -63,7 +61,7 @@ header {
 }
 
 input {
-    width: 320px;
+    width: 200px;
     font-size: 18px;
     outline: none;
     border: none;
@@ -76,13 +74,14 @@ input {
 }
 
 .search-icon {
-    width: 20px;
+    width: 100%;
+    height: 20px;
     cursor: pointer;
 }
 
 .mic-icon {
     width: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
     cursor: pointer;
     border-radius: 30px;
     background-color: #f0f0f0;
@@ -107,12 +106,13 @@ input {
 }
 
 .bell-icon {
-    width: 30px;
+    width: 100%;
+    height: 40px;
 }
 
 .user-avatar-icon {
-    width: 45px;
-    font-size: 30px;
+    width: 100%;
+    height: 45px;
     padding-right: 15px;
 }
 
