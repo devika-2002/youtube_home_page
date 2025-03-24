@@ -586,16 +586,20 @@ footer {
     .video-text1 {
         font-size: 15px;
     }
+
     .video-text2 {
         font-size: 15px;
     }
-    .video-text3{
+
+    .video-text3 {
         font-size: 15px;
     }
-    .shorts-text1{
+
+    .shorts-text1 {
         font-size: 15px;
     }
-    .shorts-text2{
+
+    .shorts-text2 {
         font-size: 15px;
     }
 }
@@ -608,16 +612,20 @@ footer {
     .video-text1 {
         font-size: 12px;
     }
+
     .video-text2 {
         font-size: 12px;
     }
-    .video-text3{
+
+    .video-text3 {
         font-size: 12px;
     }
-    .shorts-text1{
+
+    .shorts-text1 {
         font-size: 12px;
     }
-    .shorts-text2{
+
+    .shorts-text2 {
         font-size: 12px;
     }
 
@@ -706,6 +714,7 @@ footer {
         margin-top: -4px;
         font-size: 12px;
     }
+
     .line {
         display: none;
     }
@@ -746,24 +755,31 @@ footer {
     .video-text1 {
         font-size: 10px;
     }
+
     .video-text2 {
         font-size: 10px;
     }
-    .video-text3{
+
+    .video-text3 {
         font-size: 10px;
     }
-    .shorts-text1{
+
+    .shorts-text1 {
         font-size: 10px;
     }
-    .shorts-text2{
+
+    .shorts-text2 {
         font-size: 10px;
     }
-    .tag1{
+
+    .tag1 {
         display: none;
     }
-    .tag-10{
+
+    .tag-10 {
         display: none;
     }
+
     .footer-container {
         width: 900px;
     }
